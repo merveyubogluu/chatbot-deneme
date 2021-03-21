@@ -1,0 +1,101 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :)",
+          "Hello, thanks for visiting",
+          "What can I do for you?",
+          "How can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "chatting",
+        "patterns": [
+          "How are you?",
+          "I miss you.",
+          "Are you okay?",
+          "What are you doing lately?"
+        ],
+        "responses": [
+          "I miss you my friend!",
+          "I am great, what about you?",
+          "How is your life going?"
+        ]
+      },
+      {
+        "tag": "school",
+        "patterns": [
+          "I have got a problem in my school.",
+          "I do not like school.",
+          "I have some issues about school",
+          "I don't wanna go to school",
+          "I hate school"
+        ],
+        "responses": [
+          "You should like your school because you're going to spend a lot of time there :(",
+          "What's the problem?",
+          "I may help you about this, why can't you tell me what's the problem?"
+        ]
+      },
+      {
+        "tag": "math",
+        "patterns": [
+          "Math is hard.",
+          "I don't like math."
+        ],
+        "responses": [
+          "You should start from the beginning.",
+          "Maybe you can find someone to help you about math!"
+        ]
+      },
+      {
+        "tag": "math_help",
+        "patterns": [
+          "How can i understand math?",
+          "how can i study math?",
+          "how can i learn math",
+          "can you help me about math?"
+        ],
+        "responses": [
+            "I can help you about it, You can check Khan Academy website for great math videos.",
+            "you can search what you dont understand on Google!",
+            "You can find great tutorials about math on YouTube!",
+            "You may want extra help from your teacher."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
+  
